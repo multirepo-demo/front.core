@@ -1,0 +1,2 @@
+# front.core
+Core repository

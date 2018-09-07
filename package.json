@@ -1,0 +1,31 @@
+{
+  "name": "front.core",
+  "version": "1.0.0",
+  "description": "Core repository",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "front build --config $PWD/webpack.config.js --mode development",
+    "build": "front build --config $PWD/webpack.config.js --mode development",
+    "start": "front build --config $PWD/webpack.config.js --server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multirepo-demo/front.core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/multirepo-demo/front.core/issues"
+  },
+  "homepage": "https://github.com/multirepo-demo/front.core#readme",
+  "devDependencies": {
+    "front.page.one": "github:multirepo-demo/front.page.one",
+    "front.page.workspace": "github:multirepo-demo/front.page.workspace",
+    "front.tools": "github:multirepo-demo/front.tools"
+  },
+  "dependencies": {
+    "compare": "^2.0.0",
+    "front.common": "github:multirepo-demo/front.common"
+  }
+}

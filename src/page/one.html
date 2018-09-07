@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>One</title>
+  </head>
+  <body>
+    <script>
+      window.exports = {};
+      window.require = function(moduleName) {
+        return window.exports[moduleName]
+      };
+    </script>
+    <script src="/index.entry.js"></script>
+    <script src="../../node_modules/front.page.one/dist/index.entry.js"></script>
+  </body>
+</html>
